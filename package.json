@@ -276,7 +276,7 @@
     "prettier": "github:automattic/calypso-prettier#14307ba5cc6bcfc00243f5e2d1b25c72d52c28c8",
     "pretty-bytes": "4.0.2",
     "react-codemod": "reactjs/react-codemod",
-    "react-test-renderer": "15.6.2",
+    "react-test-renderer": "16.0.0",
     "readline-sync": "1.4.5",
     "sinon": "1.17.7",
     "sinon-chai": "2.8.0",
