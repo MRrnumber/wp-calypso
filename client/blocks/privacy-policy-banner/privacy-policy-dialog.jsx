@@ -8,6 +8,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import Dialog from 'components/dialog';
+import parser from './parser';
 import Button from 'components/button';
 
 class PrivacyPolicyDialog extends Component {
@@ -33,7 +34,7 @@ class PrivacyPolicyDialog extends Component {
 				</div>
 
 				<div className="privacy-policy-banner__dialog-body">
-					{ this.props.content }
+					{ parser( this.props.content ) }
 				</div>
 			</Dialog>
 		);
